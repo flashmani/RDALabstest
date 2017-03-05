@@ -1,0 +1,275 @@
+body{
+    background: #e7e7e7;
+}
+.membercont{
+    background: #fff;
+}
+.topsearch{
+    background: #f1f1f1;
+    height:65px;
+    padding:5px;
+
+}
+.search{
+    background: #fff;
+    padding:20px 10px 0px 10px;
+}
+.topnavmenu{
+    width:50px;
+    height:50px;
+   background: url("../img/sprite.png") no-repeat -240px 10px;
+}
+.userimg img{
+    width:50px;
+    height:50px;
+}
+.searchicon{
+    width: 50px;
+    height:50px;
+    background: url("../img/sprite.png") no-repeat -650px -45px;
+    display: block;
+}
+.searchicon span{
+    display: none;
+}
+.tabnav .tablist{
+    background: #000;
+    display: block;
+    padding: 20px 20px 0px 120px;
+    overflow: hidden;
+
+}
+.tabnav .nav{
+    padding:0 0 0 0px;
+    margin: 0 0 0 120px;
+    text-align: center;
+
+}
+.tabnav .nav > li{
+    padding: 0 !important;
+    margin:0 10px 0 10px !important;
+    text-align: center;
+}
+
+.tabnav .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 5px 0px 20px 0px;
+    margin:0px 0px 0px 0px !important;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+.tabnav .nav > li > a:hover,.tabnav .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+
+}
+.tabnav .nav > li:hover::after{
+    background: none;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 42px;
+    border-width: 0px 15px 15px 15px;
+    border-style: solid;
+    border-color: #ccc transparent;
+    display: block;
+    width: 0;
+    color: #fff;
+}
+.tablist li.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 42px;
+    border-width: 0px 15px 15px 15px;
+    border-style: solid;
+    border-color: #ccc transparent;
+    display: block;
+    width: 0;
+    color: #fff;
+}
+.passport{
+    width: 65px;
+    height:65px;
+    background: url("../img/sprite.png") no-repeat -293px -50px;
+    display: block;
+}
+.projects{
+    width: 65px;
+    height:65px;
+    background: url("../img/sprite.png") no-repeat -220px -50px;
+    display: block;
+}
+.workgroups{
+    width: 65px;
+    height:65px;
+    background: url("../img/sprite.png") no-repeat -146px -50px;
+    display: block;
+}
+.role{
+    width: 65px;
+    height:65px;
+    background: url("../img/sprite.png") no-repeat -450px -50px;
+    display: block;
+}
+.communities{
+    width: 65px;
+    height:65px;
+    background: url("../img/sprite.png") no-repeat -375px -50px;
+    display: block;
+}
+
+.configsec{
+    background: #ccc;
+    padding:20px 20px 20px 20px;
+}
+.configsec p{
+    font-size:11px;
+}
+.boaticon{
+    width: 60px;
+    height: 60px;
+    background: url(../img/sprite.png) no-repeat -224px -168px;
+    display: block;
+    background-size: 400px 290px;
+
+}
+.members{
+    padding:20px;
+}
+.members img{
+    width: 56px;
+    height:56px;
+}
+.members h6{
+    margin-bottom: 0px;
+    padding-left:10px;
+}
+.members p{
+    padding-left:10px;
+}
+.members h6 .username{
+    font-weight: bold;
+}
+.members .email{
+    font-size:11px;
+}
+.members .row .col-md-4{
+padding-bottom:20px;
+}
+
+.configicon {
+    width: 50px;
+    height:50px;
+    background: url("../img/sprite.png") no-repeat -590px -45px;
+    display: block;
+}
+.configicon span{
+    display: none;
+}
+.sendmail{
+    padding:20px 0px 0 0px;
+
+}
+.sendmailicon{
+    width: 50px;
+    height:50px;
+    background: url("../img/sprite.png") no-repeat -290px 10px;
+    display: block;
+}
+.filter .active {
+    color: #fff;
+    background-color:#2aabd2;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+
+}
+.filter li {
+    display: inline;
+    padding:2px 5px 2px 5px;
+    font-size: 14px;
+    cursor:pointer !important;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight:bold;
+    color: #ccc;
+}
+.filter ul {
+    list-style-type: none;
+}
+
+
+#skin {
+    position:relative;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border:2px solid #ccc;
+    width:60px;
+    height:60px;
+    overflow:hidden;
+
+}
+.fdw_left,
+.fdw_right {
+    float:left;
+    width:100%;
+    margin:0;
+    text-align:center;
+    text-decoration:none;
+}
+.fdw_right {
+    border-radius:0 0px 0px 0;
+}
+.fdw_left {
+    background-color:#fff;
+    border-radius:0 0 0 0px;
+    color:#1e2a2a;
+    height:70%;
+}
+.fdw_right {
+    background-color:#ccc;
+    color:#FFFFFF;
+    height:30%;
+}
+
+
+.fdw_right:hover {
+    background-color:#198074;
+    color:#FFF;
+}
+#skin:hover {
+    border:2px solid #198074;
+}
+
+.fdw_right input[type=checkbox] {
+    display:none;
+}
+
+.fdw_right input[type=checkbox] + label {
+    display:inline-block;
+    width:50px;
+    height:20px;
+    background: url("../img/sprite.png") no-repeat -457px -27px;
+    color: #000;
+}
+
+.fdw_right input[type=checkbox]:checked + label {
+    display:inline-block;
+    width:50px;
+    height:20px;
+    background:#198074 url("../img/sprite.png") no-repeat -419px -27px;
+    color: #000;
+}
+.changeborder{
+    border:2px solid #198074 !important;
+}
+.members .btn-primary{
+    background-color: #198074;
+}
